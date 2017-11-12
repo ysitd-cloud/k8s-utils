@@ -19,7 +19,7 @@ func createPodInfo(addresses []v1.EndpointAddress) *podInfo {
 }
 
 
-func GetServiceStatus(client corev1.CoreV1Client, namespace, name string) (*componentEndpoints, error) {
+func GetServiceStatus(client corev1.CoreV1Interface, namespace, name string) (*componentEndpoints, error) {
 	endpoint, err := client.Endpoints(namespace).Get(name, metav1.GetOptions{})
 	if err != nil {
 		return nil, err
