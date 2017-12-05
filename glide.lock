@@ -1,5 +1,5 @@
-hash: c9b87fd0c346c14fac52bbf1271ca563dd5fee66eb25032109108355f412ee91
-updated: 2017-12-05T13:02:25.915943+08:00
+hash: 4984062a334a0ad942249dc9c645f924ad667049b04353ef0a61bcad881f7475
+updated: 2017-12-05T13:31:11.877098+08:00
 imports:
 - name: github.com/davecgh/go-spew
   version: 782f4967f2dc4564575ca782fe2d04090b5faca8
@@ -110,6 +110,8 @@ imports:
   version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
 - name: k8s.io/api
   version: 6c6dac0277229b9e9578c5ca3f74a4345d35cdc2
+  repo: https://github.com/kubernetes/api
+  vcs: git
   subpackages:
   - admissionregistration/v1alpha1
   - apps/v1beta1
@@ -126,7 +128,6 @@ imports:
   - certificates/v1beta1
   - core/v1
   - extensions/v1beta1
-  - imagepolicy/v1alpha1
   - networking/v1
   - policy/v1beta1
   - rbac/v1
