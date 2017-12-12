@@ -9,7 +9,7 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 )
 
-func AutoConnect() (*kubernetes.Clientset, error) {
+func AutoConnect() (kubernetes.Interface, error) {
 	var config *rest.Config
 	var err error
 	config, err = loadInOfClusterConfig()
