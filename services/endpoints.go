@@ -1,4 +1,4 @@
-package services
+package services // import "code.ysitd.cloud/k8s/utils/go/services"
 
 import (
 	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"

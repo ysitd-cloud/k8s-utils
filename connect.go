@@ -1,4 +1,4 @@
-package utils
+package utils // import "code.ysitd.cloud/k8s/utils/go"
 
 import (
 	"os"

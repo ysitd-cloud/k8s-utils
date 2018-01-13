@@ -1,4 +1,4 @@
-package services
+package services // import "code.ysitd.cloud/k8s/utils/go/services"
 
 type componentEndpoints struct {
 	Total        int      `json:"total"`

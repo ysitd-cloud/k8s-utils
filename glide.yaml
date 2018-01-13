@@ -1,4 +1,4 @@
-package: github.com/ysitd-cloud/k8s-utils
+package: code.ysitd.cloud/k8s/utils/go
 import:
 - package: k8s.io/client-go
   version: ^5.0
