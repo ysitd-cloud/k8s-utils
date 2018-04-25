@@ -1,8 +1,0 @@
-package: code.ysitd.cloud/k8s/utils/go
-import:
-- package: k8s.io/client-go
-  version: ^5.0
-- package: k8s.io/apimachinery
-  version: 019ae5ada31de202164b118aee88ee2d14075c31
-- package: k8s.io/api
-  version: 6c6dac0277229b9e9578c5ca3f74a4345d35cdc2

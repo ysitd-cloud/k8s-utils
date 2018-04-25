@@ -27,15 +27,15 @@
 
 [[constraint]]
   name = "k8s.io/api"
-  version = "kubernetes-1.8.1"
+  version = "kubernetes-1.9.2"
 
 [[constraint]]
   name = "k8s.io/apimachinery"
-  version = "kubernetes-1.8.1"
+  version = "kubernetes-1.9.2"
 
 [[constraint]]
   name = "k8s.io/client-go"
-  version = "5.0.0"
+  version = "6.0.0"
 
 [prune]
   go-tests = true
